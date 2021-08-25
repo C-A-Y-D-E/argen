@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;1,200&display=swap");
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+@layer base {
+  h2 {
+    @apply text-3xl lg:text-5xl;
+  }
+
+  h4 {
+    @apply text-xl lg:text-2xl font-semibold;
+  }
+
+  table {
+    @apply table-auto w-full;
+  }
+
+  tr:not(:last-child) {
+    @apply border-b border-accent/20;
+  }
+
+  thead tr {
+    @apply h-12 border-b border-accent/20;
+  }
+
+  th {
+    @apply h-[50px] pb-8 text-gray-400;
+  }
+  tbody {
+    @apply mt-16;
+  }
+
+  tbody tr td {
+    @apply py-4;
+  }
+
+  td {
+    @apply text-center;
+  }
+}
+
+.row-letter {
+  /* font-size: 28rem;
+  font-weight: 500;
+  position: relative;
+  letter-spacing: -0.8rem;
+  display: inline-block; */
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .responsiveTable tbody tr {
+    border: 1px solid rgba(38, 174, 96, 0.2) !important;
+  }
+}
+
+.card-shadow {
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+/* Card animatio */
