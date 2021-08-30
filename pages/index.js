@@ -56,10 +56,10 @@ export default function App() {
         {" "}
         <Footer />
       </div>
-      <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
+      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         {" "}
         <NavigateUp />
-      </div>
+      </div> */}
     </div>
   );
 }
