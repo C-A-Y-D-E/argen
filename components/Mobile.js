@@ -47,7 +47,7 @@ const Mobile = () => {
     <div className="mt-20 lg:mt-56">
       <div
         ref={ref}
-        className="bg-dark p-8 lg:py-16 lg:px-24 flex flex-wrap-reverse gap-4 items-center relative z-20"
+        className="bg-dark p-8 lg:py-16 lg:px-24 flex flex-wrap-reverse gap-12 items-center relative z-20"
       >
         <motion.div
           variants={container}
@@ -56,7 +56,7 @@ const Mobile = () => {
           className="  relative"
         >
           <motion.h2 variants={children} className=" relative  inline-block">
-            <span className="text-accent">Optimized </span>
+            <span className="text-accent leading-snug">Optimized </span>
             for every <br className=" hidden lg:block" /> screen
           </motion.h2>
           <motion.div
@@ -80,14 +80,16 @@ const Mobile = () => {
             </div>
           </motion.div>
         </motion.div>
-        <div className="lg:absolute right-16 ">
-          <motion.img
-            initial="hidden"
-            animate={controls}
-            variants={mobile}
-            src="/iphone.png"
-            className="z-50 relative"
-          />
+        <div className="lg:absolute bottom-0 right-20 h-[400px] w-[400px] ml-auto overflow-hidden">
+          <div className="lg:absolute z-[-1]">
+            <img
+              initial="hidden"
+              animate={controls}
+              variants={mobile}
+              src="/iphone.png"
+              className="z-50 relative"
+            />
+          </div>
         </div>
       </div>
     </div>

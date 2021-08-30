@@ -3,36 +3,45 @@ import FadeUp from "components/FadeUp";
 import { FiSunrise } from "react-icons/fi";
 const Feature = () => {
   return (
-    <div className="mt-20 lg:mt-44" id="features">
-      <div className="  relative">
-        <FadeUp>
-          <h2 className=" relative  inline-block">
-            <span className="text-accent">Benefits </span>
-            of working <br /> with{" "}
-            <span className="relative">
-              {" "}
-              us.{" "}
-              <img
-                src="/blobs/headingblob.svg"
-                className="absolute -right-10 top-2 transform scale-150 z-[-1]"
-              />
-            </span>
-            {/* <img
-            src="/blobs/headingblob.svg"
-            className="absolute left-28 top-12 z-[-1]"
-          /> */}
-          </h2>
-        </FadeUp>
-      </div>
-      <FadeUp amount={0.4}>
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-16">
-          <FeatureCard title="Enhanced Cryptocurrency market information" />
-          <FeatureCard title="Decentralised exchange toolkit " />
-
-          <FeatureCard title="Mobile app and wallet " />
-          <FeatureCard title="Live trading" />
+    <div
+      className="mt-8 overflow-x-hidden flex flex-col items-center gap-16 "
+      id="features"
+    >
+      <div className="flex flex-col items-center justify-center gap-6  flex-wrap px-8 lg:px-16 xl:px-20  ">
+        <div className=" relative">
+          <FadeUp>
+            <h2 className=" relative  inline-block leading-snug">
+              <span className="text-accent">Benefits </span>of working with{" "}
+              <span className="relative">us. </span>
+            </h2>
+          </FadeUp>
         </div>
-      </FadeUp>
+
+        {/* <div className=" ">
+          <FadeUp amount={0.2}>
+            <p className="max-w-[500px]  mt-0">
+              We believe that your ability to take good investment decisions
+              shouldn’t require you to waste precious time on digging into
+              contracts or reddit and countless social channels.
+            </p>
+          </FadeUp>
+        </div> */}
+      </div>
+
+      <div className=" ml-auto  grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-16 px-8 lg:px-16 xl:px-20  ">
+        <FeatureCard
+          title="Liquidity"
+          text="Deep order book liquidity in all market condition"
+        />
+        <FeatureCard
+          title="Speed"
+          text="2.5m Tps matching engine 50 micro second core letency"
+        />
+        <FeatureCard
+          title="Security"
+          text="ISO/IEC 27001:2013, PCI:DSS v3.2.1, Level 1 compilance. Cryptocurrecy Security Standard "
+        />
+      </div>
     </div>
   );
 };
@@ -40,13 +49,13 @@ const Feature = () => {
 export default Feature;
 const FeatureCard = ({ title, text }) => {
   return (
-    <div className="grid gap-12 " style={{ gridTemplateColumns: "auto 1fr" }}>
-      <div className="flex items-center justify-center">
-        <div className="h-[60px] w-[60px] rounded-full bg-accent/20 flex items-center justify-center text-2xl">
+    <div className="flex flex-col">
+      <div className="flex items-center">
+        <div className="h-[60px] w-[60px] rounded-lg bg-accent/20 flex items-center justify-center text-2xl">
           <FiSunrise />
         </div>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mt-4">
         <h4 className="text-xl lg:text-2xl font-semibold">{title}</h4>
         <p className="mt-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed

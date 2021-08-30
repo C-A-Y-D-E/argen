@@ -65,7 +65,7 @@ const Roadmap = () => {
     }
   }, [controls, inView]);
   return (
-    <div className="mt-20" id="roadmap">
+    <div className="mt-44" id="roadmap">
       <h2 className="text-center text-accent">Roadmap</h2>
 
       <motion.div

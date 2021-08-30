@@ -6,22 +6,22 @@ const FAQ = () => {
   const [active, setActive] = useState(1);
   return (
     <div className="mt-20 lg:mt-44 " id="faq">
-      <div className="flex flex-wrap gap-16">
+      <div className="flex items-center flex-wrap gap-16">
         <div className="  relative lg:flex-1">
-          <h2 className=" relative  inline-block">
+          <h2 className=" relative  inline-block leading-snug">
             Frquently <br /> Asked{" "}
             <span className="text-accent">Question </span>
           </h2>
           <div className="absolute -top-32 -left-44 z-[1]">
             <img src="/blobs/4.svg" />
           </div>
-          <div className="mt-4 max-w-[440px] text-base">
+          <div className="mt-8 max-w-[440px] text-base">
             we know you have some questions in mind, we’ve tried to list the
             most importance ones.
           </div>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <img src="/pattern3.svg" />
-          </div>
+          </div> */}
         </div>
 
         <div className=" lg:flex-1 flex flex-col gap-4  relative">

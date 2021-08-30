@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import FadeUp from "components/FadeUp";
 
-import { motion, useTransform, useViewportScroll } from "framer-motion";
+// import { motion, useTransform, useViewportScroll } from "framer-motion";
 const Infrastrusture = () => {
-  const { scrollYProgress } = useViewportScroll();
+  // const { scrollYProgress } = useViewportScroll();
   // const yPosAnim = useTransform(scrollYProgress, [0, 0.4, 1], [0, -150, -100]);
-  const xPosAnim = useTransform(scrollYProgress, [0, 0.4, 1], [-510, 0, -100]);
+  // const xPosAnim = useTransform(scrollYProgress, [0, 0.4, 1], [-510, 0, -100]);
 
   return (
     <div className="mt-44">
@@ -21,10 +21,10 @@ const Infrastrusture = () => {
         </div>
       </FadeUp>
       <FadeUp>
-        <motion.div style={{ x: xPosAnim }} className="relative lg:-mt-48">
+        <div className="relative lg:-mt-48">
           <img src="/trade.png" className="mx-auto z-20 relative" />
           {/* <img src="/blobs/big.svg" className="absolute -top-48 z-10" /> */}
-        </motion.div>
+        </div>
       </FadeUp>
     </div>
   );

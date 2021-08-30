@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { VscListSelection } from "react-icons/vsc";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import HamburgerMenu from "components/Hamberger";
 const Header = ({ setHeader }) => {
   const [header, setNav] = useState(false);
   const listenScrollEvent = (event) => {
@@ -28,11 +29,11 @@ const Header = ({ setHeader }) => {
       <div className="flex items-center justify-between text-2xl lg:text-4xl my-6">
         <Link href="/">
           <a>
-            <img src="/logas.png" className="w-[200px]" />
+            <img src="/logas.png" className="w-[140px]  lg:w-[200px]" />
           </a>
         </Link>
-        <div className="cursor-pointer" onClick={() => setHeader(true)}>
-          <VscListSelection />
+        <div>
+          <HamburgerMenu />
         </div>
       </div>
     </motion.header>

@@ -10,8 +10,8 @@
 </filter>
 <linearGradient id="paint0_linear" x1="110.5" y1="0.499995" x2="306.95" y2="688.012" gradientUnits="userSpaceOnUse">
 <stop offset="0.202179" stop-color="#050505"/>
-<stop offset="0.574827" stop-color="#0F6238"/>
-<stop offset="0.938927" stop-color="#017B3D"/>
+<stop offset="0.574827" stop-color="#8A099F"/>
+<stop offset="0.938927" stop-color="#6A017B"/>
 </linearGradient>
 </defs>
 </svg>

@@ -65,10 +65,6 @@ const Tokenomics = () => {
             reward holders while sustaining the ecosystem development and
             growth.
           </motion.p>
-          <motion.p variants={item} className="max-w-[450px] w-full mt-10">
-            Argen token holders have access to the advanced tracking features
-            and take advantage of Argen unique analytics platform.
-          </motion.p>
         </motion.div>
         <div className="mx-auto lg:ml-auto">
           <motion.div
@@ -88,9 +84,9 @@ const Tokenomics = () => {
         Argen token holders have access to the advanced tracking features
         and take advantage of Argen unique analytics platform.
       </div> */}
-      <div className="absolute -left-10 -bottom-20 z-10">
+      {/* <div className="absolute -left-10 -bottom-20 z-10">
         <img src="/pattern2.svg" />
-      </div>
+      </div> */}
     </div>
   );
 };
@@ -98,18 +94,27 @@ const Tokenomics = () => {
 export default Tokenomics;
 const Nomics = ({ number, text }) => {
   return (
-    <motion.div
-      variants={item}
-      className="text-center border border-accent px-16 rounded-lg  py-8"
-    >
-      <div className="flex justify-center relative">
-        <div className="h-[80px] w-[80px] bg-accent p-4 rounded-lg">
-          <GiTrophyCup className="text-white text-5xl " />
-        </div>
-        <img src="/pattern2.svg" className="w-20 absolute -bottom-10 -left-4" />
-      </div>
-      <div className="text-4xl mt-16">{number} %</div>
-      <div className="text-gray-300 mt-2">{text}</div>
+    <motion.div variants={item} className="  rounded-lg  ">
+      <div className="text-5xl ">{number}%</div>
+      <div className="text-gray-300 text-lg mt-2">{text}</div>
     </motion.div>
   );
 };
+
+// const Nomics = ({ number, text }) => {
+//   return (
+//     <motion.div
+//       variants={item}
+//       className="text-center border border-accent px-16 rounded-lg  py-8"
+//     >
+//       <div className="flex justify-center relative">
+//         <div className="h-[80px] w-[80px] bg-accent p-4 rounded-lg">
+//           <GiTrophyCup className="text-white text-5xl " />
+//         </div>
+//         <img src="/pattern2.svg" className="w-20 absolute -bottom-10 -left-4" />
+//       </div>
+//       <div className="text-4xl mt-16">{number} %</div>
+//       <div className="text-gray-300 mt-2">{text}</div>
+//     </motion.div>
+//   );
+// };

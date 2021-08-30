@@ -28,27 +28,21 @@ const responsive = {
 
 const Signal = ({ deviceType }) => {
   return (
-    <div className="mt-8 overflow-x-hidden">
-      <div className="flex items-center gap-6  flex-wrap px-8 lg:px-16 xl:px-20  ">
-        <div className="lg:flex-1 relative">
+    <div className="mt-8 overflow-x-hidden flex flex-wrap gap-16 ">
+      <div className="flex flex-col items-center justify-center gap-6  flex-wrap px-8 lg:px-16 xl:px-20  ">
+        <div className=" relative">
           <FadeUp>
             <h2 className=" relative  inline-block leading-snug">
               <span className="text-accent">Predict</span> changes and{" "}
               <br className="lg:hidden 2xl:inline-block" /> signal to sell or{" "}
-              <span className="relative">
-                buy.{" "}
-                <img
-                  src="/blobs/headingblob.svg"
-                  className="absolute -right-10 -top-2 z-[-1]"
-                />
-              </span>
+              <span className="relative">buy. </span>
             </h2>
           </FadeUp>
         </div>
 
-        <div className="lg:flex-1 ">
+        <div className=" ">
           <FadeUp amount={0.2}>
-            <p className="max-w-[500px] ml-auto mt-0">
+            <p className="max-w-[500px]  mt-0">
               We believe that your ability to take good investment decisions
               shouldn’t require you to waste precious time on digging into
               contracts or reddit and countless social channels.
@@ -57,65 +51,9 @@ const Signal = ({ deviceType }) => {
         </div>
       </div>
 
-      <div className="whitespace-nowrap mt-24 flex scale-[5]  lg:scale-[2]">
-        <motion.img
-          animate={{
-            x: "0",
-          }}
-          initial={{ x: "-100%" }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "loop",
-            duration: 24,
-            ease: "linear",
-          }}
-          src="/card2.svg"
-        />
-        <motion.img
-          animate={{
-            x: "0",
-          }}
-          initial={{ x: "-100%" }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "loop",
-            duration: 24,
-            ease: "linear",
-          }}
-          src="/card2.svg"
-        />
-      </div>
-      <div className="whitespace-nowrap mt-32 flex scale-[5] lg:scale-[2]">
-        <motion.img
-          animate={{
-            x: "-100%",
-          }}
-          initial={{ x: "0" }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "loop",
-            duration: 32,
-            ease: "linear",
-          }}
-          src="/card.svg"
-        />
-        <motion.img
-          animate={{
-            x: "-100%",
-          }}
-          initial={{ x: "0" }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "loop",
-            duration: 32,
-            ease: "linear",
-          }}
-          src="/card.svg"
-        />
-      </div>
-
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-8 lg:px-16 xl:px-20  ">
+      <div className="mt-20 ml-0 lg:ml-32  flex flex-col gap-10 px-8 lg:px-16 xl:px-20  ">
         <SpecialityCard
+          shadow={true}
           heading="Liquidity"
           text="Deep order book liquidity in all market condition"
           br={true}
@@ -138,7 +76,7 @@ export default Signal;
 
 const CoinCard = () => {
   return (
-    <div className="bg-dark p-8 select-none">
+    <div className="bg-dark p-8 select-none  rounded-lg bshadow">
       <div className="flex gap-6">
         <div>
           <h4 className="flex items-center gap-4 text-lg">
@@ -154,22 +92,21 @@ const CoinCard = () => {
   );
 };
 
-const SpecialityCard = ({ br, heading, text }) => {
+const SpecialityCard = ({ br, heading, text, shadow }) => {
   return (
     <div
-      className={`${
-        br
-          ? "border-b-[.5px] lg:border-b-0 lg:border-r-[.5px] border-white"
-          : ""
-      } p-4`}
+      className={` p-4 flex gap-4 h-[150px] items-center w-full max-w-[350px]  ${
+        shadow ? "f-shadow" : ""
+      }`}
     >
-      <div className="flex gap-6 items-center">
-        <div className="h-[50px] w-[50px] rounded-full bg-accent/40 flex items-center justify-center text-3xl">
-          <RiMoneyDollarCircleFill />
-        </div>
-        <h5 className="text-2xl">{heading}</h5>
+      <div className="h-[50px] flex-shrink-0 w-[50px] rounded-full bg-accent/40 flex items-center justify-center text-3xl">
+        <RiMoneyDollarCircleFill />
       </div>
-      <div className="mt-6 text-gray-300">{text}</div>
+
+      <div className="flex flex-col gap-2">
+        <h5 className="text-2xl">{heading}</h5>
+        <div className=" text-gray-300">{text}</div>
+      </div>
     </div>
   );
 };
