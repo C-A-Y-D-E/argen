@@ -2,7 +2,8 @@ import React from "react";
 import {
   FaTelegramPlane,
   FaTwitter,
-  FaRedditAlien,
+  FaInstagram,
+  FaSlack,
   FaDiscord,
 } from "react-icons/fa";
 const Footer = () => {
@@ -21,13 +22,30 @@ const Footer = () => {
             </a>
           </div>
           <div className="h-[50px] w-[50px] rounded-full bg-accent/20 flex items-center justify-center text-xl text-accent">
-            <FaTwitter />
+            <a href="https://twitter.com/Argenai?s=09" target="_blank">
+              <FaTwitter />
+            </a>
           </div>
           <div className="h-[50px] w-[50px] rounded-full bg-accent/20 flex items-center justify-center text-xl text-accent">
-            <FaRedditAlien />
+            <a
+              href="https://instagram.com/argen.ai?utm_medium=copy_link"
+              target="_blank"
+            >
+              <FaInstagram />
+            </a>
           </div>
           <div className="h-[50px] w-[50px] rounded-full bg-accent/20 flex items-center justify-center text-xl text-accent">
-            <FaDiscord />
+            <a href="https://discord.gg/AG7n2WXd" target="_blank">
+              <FaDiscord />
+            </a>
+          </div>
+          <div className="h-[50px] w-[50px] rounded-full bg-accent/20 flex items-center justify-center text-xl text-accent">
+            <a
+              href="https://join.slack.com/t/argenai/shared_invite/zt-v5yvuic0-PRnvVIt5W2aF5qcvZiQxzA"
+              target="_blank"
+            >
+              <FaSlack />
+            </a>
           </div>
         </div>
       </div>
