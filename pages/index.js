@@ -33,15 +33,15 @@ export default function App() {
         <Video />
       </div> */}
 
-      <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
+      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         {" "}
         <Feature />
-      </div>
+      </div> */}
 
-      <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
+      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         {" "}
         <Roadmap />
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         <Mobile />

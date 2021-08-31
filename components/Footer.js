@@ -16,7 +16,9 @@ const Footer = () => {
         <div className="mx-auto">© 2021 Argen</div>
         <div className="flex gap-6 items-center lg:ml-auto mx-auto lg:mx-0">
           <div className="h-[50px] w-[50px] rounded-full bg-accent/20 flex items-center justify-center text-xl text-accent">
-            <FaTelegramPlane />
+            <a href="https://t.me/argenai" target="_blank">
+              <FaTelegramPlane />
+            </a>
           </div>
           <div className="h-[50px] w-[50px] rounded-full bg-accent/20 flex items-center justify-center text-xl text-accent">
             <FaTwitter />

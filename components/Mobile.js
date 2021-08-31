@@ -44,7 +44,7 @@ const Mobile = () => {
   };
 
   return (
-    <div className="mt-20 lg:mt-56">
+    <div className="">
       <div
         ref={ref}
         className="bg-dark p-8 lg:py-16 lg:px-24 flex flex-wrap-reverse gap-12 items-center relative z-20"

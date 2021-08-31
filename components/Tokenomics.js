@@ -66,17 +66,17 @@ const Tokenomics = () => {
             growth.
           </motion.p>
         </motion.div>
-        <div className="mx-auto lg:ml-auto">
+        <div className="mx-auto lg:ml-auto lg:mr-0">
           <motion.div
             variants={list}
             initial="hidden"
             animate={controls}
-            className="grid grid-cols-1 lg:grid-cols-2  gap-x-16 gap-y-8"
+            className=""
           >
-            <Nomics number="2" text="back to holders" />
-            <Nomics number="4" text="back to liquidity pool" />
+            <Nomics number="10" text="back to holders" />
+            {/* <Nomics number="4" text="back to liquidity pool" />
             <Nomics number="2" text="funds development" />
-            <Nomics number="2" text="funds innovation" />
+            <Nomics number="2" text="funds innovation" /> */}
           </motion.div>
         </div>
       </div>
@@ -94,8 +94,10 @@ const Tokenomics = () => {
 export default Tokenomics;
 const Nomics = ({ number, text }) => {
   return (
-    <motion.div variants={item} className="  rounded-lg  ">
-      <div className="text-5xl ">{number}%</div>
+    <motion.div variants={item} className="  rounded-2xl p-16 bg-black   ">
+      <div className="text-5xl p-4 bg-accent text-center rounded-xl">
+        {number}%
+      </div>
       <div className="text-gray-300 text-lg mt-2">{text}</div>
     </motion.div>
   );

@@ -18,7 +18,7 @@ const HamburgerMenu = () => {
           <div className="px-1 py-1 mt-4">
             <Menu.Item>
               {({ active }) => (
-                <Link href="/">
+                <Link href="/#home">
                   <a
                     className={`${
                       active ? " text-white bg-extra-purple" : "text-white"
@@ -46,16 +46,16 @@ const HamburgerMenu = () => {
 
             <Menu.Item>
               {({ active }) => (
-                <Link href="/#features">
+                <Link href="/#faq">
                   <a
                     className={` group flex rounded-md items-center w-full px-2 py-2 text-sm hover:bg-extra-purple`}
                   >
-                    Features
+                    FAQ
                   </a>
                 </Link>
               )}
             </Menu.Item>
-            <Menu.Item>
+            {/* <Menu.Item>
               {({ active }) => (
                 <Link href="/#roadmap">
                   <a
@@ -65,7 +65,7 @@ const HamburgerMenu = () => {
                   </a>
                 </Link>
               )}
-            </Menu.Item>
+            </Menu.Item> */}
 
             {/* <div className="py-2 my-4  text-sm  px-4 xs:px-6 bg-gray-600 rounded-full text-white relative cursor-not-allowed select-none">
               <span>
