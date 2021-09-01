@@ -27,7 +27,7 @@ const Header = ({ setHeader }) => {
       style={{ zIndex: 99 }}
     >
       <div className="flex items-center justify-between text-2xl lg:text-4xl my-6">
-        <Link href="/">
+        <Link href="/#home">
           <a>
             <img src="/logas.png" className="w-[200px]  lg:w-[300px]" />
           </a>
