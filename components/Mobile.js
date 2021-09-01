@@ -60,12 +60,10 @@ const Mobile = () => {
               Artificial Intelligence{" "}
             </span>
             <br className=" hidden lg:block" />
-            <span>
-              Dataset Matrix to{" "}
-            </span> <br className=" hidden lg:block" />{" "}
-            <span>Optimize your</span>
+            <span>Matrix Based Datasets </span>{" "}
+            <br className=" hidden lg:block" /> <span>to Optimize your</span>
             <br className=" hidden lg:block" />
-            every trade
+            every Trade
           </motion.h2>
           <motion.div
             variants={children}
