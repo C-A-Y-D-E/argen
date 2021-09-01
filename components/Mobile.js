@@ -81,7 +81,7 @@ const Mobile = () => {
             variants={children}
             transition={{ delay: 1.6 }}
           >
-            <span>Buy the App</span>
+            <span>Buy the App (Coming Soon)</span>
             <div className="flex gap-6 mt-4 flex-wrap">
               <img src="/google.png" />
               <img src="/apple.png" />
