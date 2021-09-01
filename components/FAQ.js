@@ -9,16 +9,16 @@ const FAQ = () => {
       <div className="flex items-center flex-wrap gap-16">
         <div className="  relative lg:flex-1">
           <h2 className=" relative  inline-block leading-snug">
-            Frquently <br /> Asked{" "}
+            Frequently <br /> Asked{" "}
             <span className="text-accent">Question </span>
           </h2>
           <div className="absolute -top-32 -left-44 z-[1]">
             <img src="/blobs/4.svg" />
           </div>
-          <div className="mt-8 max-w-[440px] text-base">
+          {/* <div className="mt-8 max-w-[440px] text-base">
             we know you have some questions in mind, we’ve tried to list the
             most importance ones.
-          </div>
+          </div> */}
           {/* <div className="mt-10">
             <img src="/pattern3.svg" />
           </div> */}
@@ -41,7 +41,7 @@ const FAQ = () => {
               <Question
                 heading="If you're not renouncing, how can I be sure as an investor that I won't be scammed or rugged?"
                 text={[
-                  "Renouncing ownership has become the norm in the fraud-filled BSC space but in reality is a gimmick that only provides the illusion of safety.  We have employed several layers of protection for potential investors.  The LP pool will be locked.",
+                  "Renouncing ownership has become the norm in the fraud-filled BSC & ETH  space but in reality is a gimmick that only provides the illusion of safety. We have employed several layers of protection for potential investors. The LP pool will be locked.",
                   ,
                   <br />,
                   <br />,

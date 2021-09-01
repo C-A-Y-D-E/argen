@@ -55,17 +55,18 @@ const Signal = ({ deviceType }) => {
         <SpecialityCard
           shadow={true}
           heading="Liquidity"
-          text="Deep order book liquidity in all market condition"
+          text="100% Locked In DeCentralized Exchange"
           br={true}
         />
         <SpecialityCard
           heading="Speed"
-          text="2.5m Tps matching engine 50 micro second core letency"
+          text="Argen Currently operates trough Binance &
+          Ethereum Chains. Top of the World Networks."
           br={true}
         />
         <SpecialityCard
           heading="Security"
-          text="ISO/IEC 27001:2013, PCI:DSS v3.2.1, Level 1 compilance. Cryptocurrecy Security Standard "
+          text="ISO/IEC 27001:2013, PCI:DSS v3.2.1, Level 1 compilance."
         />
       </div>
     </div>

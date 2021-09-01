@@ -56,24 +56,32 @@ const Mobile = () => {
           className="  relative"
         >
           <motion.h2 variants={children} className=" relative  inline-block">
-            <span className="text-accent leading-snug">Optimized </span>
-            for every <br className=" hidden lg:block" /> screen
+            <span className="text-accent leading-snug">
+              Artificial Intelligence{" "}
+            </span>
+            <br className=" hidden lg:block" />
+            <span>
+              Dataset Matrix to{" "}
+            </span> <br className=" hidden lg:block" />{" "}
+            <span>Optimize your</span>
+            <br className=" hidden lg:block" />
+            every trade
           </motion.h2>
           <motion.div
             variants={children}
             className="mt-4 max-w-[440px] text-base"
           >
-            Meet the most complete and easy to use tracking and analytics tool
-            for the BSC and ETH networks, packed with never before seen features
-            and state of the art UX to streamline your crypto investing
-            workflow.
+            Meet the most Advanced and Easy to use Trading Matrix Datasets with
+            the most complete Tracking & Analytics Tools on BSC & ETH Networks.
+            Never before seen Features with State of the Art UIX-to Streamline
+            your Success into Reality.
           </motion.div>
           <motion.div
             className="mt-8"
             variants={children}
             transition={{ delay: 1.6 }}
           >
-            <span>Get the App</span>
+            <span>Buy the App</span>
             <div className="flex gap-6 mt-4 flex-wrap">
               <img src="/google.png" />
               <img src="/apple.png" />
