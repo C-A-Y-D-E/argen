@@ -88,14 +88,14 @@ const Mobile = () => {
             </div>
           </motion.div>
         </motion.div>
-        <div className="lg:absolute bottom-0 right-20 h-[400px] w-[400px] ml-auto overflow-hidden">
+        <div className="lg:absolute bottom-0 right-20 h-[400px] w-[550px] ml-auto overflow-hidden">
           <div className="lg:absolute z-[-1]">
             <img
               initial="hidden"
               animate={controls}
               variants={mobile}
               src="/iphone.png"
-              className="z-50 relative"
+              className="z-50 w-full relative"
             />
           </div>
         </div>
