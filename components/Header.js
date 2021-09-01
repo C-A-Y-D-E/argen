@@ -29,7 +29,7 @@ const Header = ({ setHeader }) => {
       <div className="flex items-center justify-between text-2xl lg:text-4xl my-6">
         <Link href="/">
           <a>
-            <img src="/logas.png" className="w-[140px]  lg:w-[200px]" />
+            <img src="/logas.png" className="w-[200px]  lg:w-[300px]" />
           </a>
         </Link>
         <div>

@@ -8,11 +8,11 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className=" mt-24">
+    <div className=" mt-24 mb-12 lg:mb-0">
       <div className="h-[150px] w-full grid grid-cols-1 lg:grid-cols-3 justify-between items-center">
         <div className=" mx-auto lg:mx-0">
           {" "}
-          <img src="/logas.png" className="w-[200px]" />
+          <img src="/logas.png" className="w-[300px]" />
         </div>
         <div className="mx-auto">© 2021 Argen</div>
         <div className="flex gap-6 items-center lg:ml-auto mx-auto lg:mx-0">
