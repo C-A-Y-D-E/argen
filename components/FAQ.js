@@ -30,34 +30,53 @@ const FAQ = () => {
               <div className="absolute -bottom-24  md:-right-20 z-[-2]">
                 <img src="/blobs/5.svg" />
               </div>
+
               <Question
-                heading="Will contract ownership be renounced?"
-                text="We will not be renoucing ownership.  This limits our ability to implement necessary changes and upgrades without a cumbersome contract migration.  How many projects never recovered after having to migrate from PCS v1 to v2?  A change no one saw coming.  This is only one example of many things we anticipate the need to adapt to as the space continues to change."
+                heading="How can you ensure that people will stay holding and loyal?"
+                text={[
+                  "Firstly, through our unique rewards, which are paid out fully automatically to the wallets (these can be conveniently tracked via our dashboard) and secondly, through our dynamic fees, making it difficult for whales to crash the course.",
+                  ,
+                  <br />,
+                  <br />,
+                  "f a whale decides to cash out, he would either have to pay enormously high fees or sell everything in small increments, whereby in both variants our holders benefit from extremely high rewards of up to 49% per whale transaction!",
+                  ,
+                ]}
                 no={1}
+                active={active}
+                setActive={setActive}
+              />
+
+              <hr />
+              <Question
+                heading="Where are the team from?"
+                text="We are all from Central Europe."
+                no={2}
                 active={active}
                 setActive={setActive}
               />
               <hr />
               <Question
-                heading="If you're not renouncing, how can I be sure as an investor that I won't be scammed or rugged?"
-                text={[
-                  "Renouncing ownership has become the norm in the fraud-filled BSC & ETH  space but in reality is a gimmick that only provides the illusion of safety. We have employed several layers of protection for potential investors. The LP pool will be locked.",
-                  ,
-                  <br />,
-                  <br />,
-                  "Our contract code has been audited for security vulnerabilities.  After launch, we will be seeking even higher levels of auditing from CertiK.  The core officer team is fully doxxed.  The marketing and development wallets are only accessible through multi-sig technology which must be signed by all members of the officer team to release any funds. ",
-                  ,
-                  <br />,
-                  <br />,
-                  "We are just as sick and tired of the proliferation of fraud and scams as anyone else.  Our mission, our identity, and our singular goal is to change this unsavory reality in every way that we can.  We understand trust is hard to come by in this space, we only ask for the opportunity to earn it from each and every investor.",
-                  ,
-                  <br />,
-                ]}
-                no={2}
+                heading="Do they have experience?"
+                text="We have already worked on several token projects, we also have experienced web developers and programmers in the team. We leave the marketing activities to our top marketing agencies."
+                no={3}
                 active={active}
                 setActive={setActive}
               />
-
+              <hr />
+              <Question
+                heading="Is this a short or long term project?"
+                text={[
+                  "Of course we are aiming at a long term project and want to offer our users a long term passive income source and encourage them to hold the token through our unique dynamic fee mechanism. ",
+                  ,
+                  <br />,
+                  <br />,
+                  "In the future we will offer our users a great decentralized platform where normal users, token teams and developers can benefit. We will also release a platform for NFTs in the near future, where we also want to offer our users givaways with NFT airdrops.",
+                  ,
+                ]}
+                no={4}
+                active={active}
+                setActive={setActive}
+              />
               <hr />
             </AnimateSharedLayout>
           </div>
