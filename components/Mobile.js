@@ -55,31 +55,31 @@ const Mobile = () => {
           initial="hidden"
           className="  relative"
         >
-          <motion.h2 variants={children} className=" relative  inline-block">
+          <motion.h2
+            variants={children}
+            className=" relative w-full lg:w-[60%]  inline-block"
+          >
             <span className="text-accent leading-snug">
               Artificial Intelligence{" "}
             </span>
-            <br className=" hidden lg:block" />
-            <span>Matrix Based Datasets </span>{" "}
-            <br className=" hidden lg:block" /> <span>to Optimize your</span>
-            <br className=" hidden lg:block" />
-            every Trade
+            Matrix Based Datasets to Optimize your every Trade
           </motion.h2>
           <motion.div
             variants={children}
             className="mt-4 max-w-[440px] text-base"
           >
-            Meet the most Advanced and Easy to use Trading Matrix Datasets with
-            the most complete Tracking & Analytics Tools on BSC & ETH Networks.
-            Never before seen Features with State of the Art UIX-to Streamline
-            your Success into Reality.
+            Argen is the most Advanced and Easy to use Trading Matrix Datasets
+            with the most complete Tracking & Analytics Tools on BSC & ETH
+            Networks. We have unique and novel Features with State of the Art
+            UIX-to Streamline your Success into Reality. You're not likely to
+            see this just anywhere in decentralize finance.
           </motion.div>
           <motion.div
             className="mt-8"
             variants={children}
             transition={{ delay: 1.6 }}
           >
-            <span>Buy the App (Coming)</span>
+            <span>Buy the App (Coming soon)</span>
             <div className="flex gap-6 mt-4 flex-wrap">
               <img src="/google.png" />
               <img src="/apple.png" />

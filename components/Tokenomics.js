@@ -65,7 +65,7 @@ const Tokenomics = () => {
             reward holders while sustaining the ecosystem development and
             growth.
           </motion.p>
-          <motion.p variants={item} className="max-w-[450px] w-full mt-10">
+          <motion.p variants={item} className="max-w-[450px] w-full mt-4">
             We believe in Simplicity, and that the User is always in Control,
             thats why we reward only directly to holders onChain, without third
             parties.

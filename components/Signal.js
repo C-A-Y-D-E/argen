@@ -28,8 +28,8 @@ const responsive = {
 
 const Signal = ({ deviceType }) => {
   return (
-    <div className="mt-8 overflow-x-hidden flex flex-wrap gap-16 ">
-      <div className="flex flex-col items-center justify-center gap-6  flex-wrap px-8 lg:px-16 xl:px-20  ">
+    <div className="mt-8 overflow-x-hidden flex flex-wrap gap-4 lg:gap-16 ">
+      <div className="flex flex-col  justify-center gap-6  flex-wrap px-8 lg:px-16 xl:px-20  ">
         <div className=" relative">
           <FadeUp>
             <h2 className=" relative  inline-block leading-snug">
@@ -43,9 +43,14 @@ const Signal = ({ deviceType }) => {
         <div className=" ">
           <FadeUp amount={0.2}>
             <p className="max-w-[500px]  mt-0">
-              We believe that your ability to take good investment decisions
-              shouldn’t require you to waste precious time on digging into
-              contracts or reddit and countless social channels.
+              ArgenAI is a unique token which is set to disrupt the
+              DeCentralized finance space by defiling the norm and making
+              Cryptocurrency ridiculously exciting for users. It uses
+              peer-to-peer technology to operate with no central authority; We
+              aim to deliver a first of its kind platform to enable easy and
+              simplistic investment methods. From analytical tools to
+              advantageous information to licence a warrant for an increase in
+              safety and profits from investments.
             </p>
           </FadeUp>
         </div>
@@ -55,18 +60,17 @@ const Signal = ({ deviceType }) => {
         <SpecialityCard
           shadow={true}
           heading="Liquidity"
-          text="100% Locked In DeCentralized Exchange"
+          text="100% of Liquidity will be Locked In DeCentralized Exchange to prevent high volatility of transaction. Hence, market is more stable with a few fluctuation in price."
           br={true}
         />
         <SpecialityCard
           heading="Speed"
-          text="Argen Currently operates trough Binance &
-          Ethereum Chains. Top of the World Networks."
+          text="We believe that one of the most impotant features in DeFi is speed, thus, Argen operates through Binance & Ethereum Chain which is inadvertently the Top of the World Networks. "
           br={true}
         />
         <SpecialityCard
           heading="Security"
-          text="ISO/IEC 27001:2013, PCI:DSS v3.2.1, Level 1 compilance."
+          text="If a network cannot function safely, then it will not matter how fast it works. While speed is one of the prime concerns, one security flaw can bring the whole thing down. Argen promises to be one of the most secured platform ever for its users"
         />
       </div>
     </div>
@@ -96,7 +100,7 @@ const CoinCard = () => {
 const SpecialityCard = ({ br, heading, text, shadow }) => {
   return (
     <div
-      className={` p-4 flex gap-4 h-[150px] items-center w-full max-w-[350px]  ${
+      className={` p-4 flex gap-4  items-center w-full max-w-[400px]  ${
         shadow ? "f-shadow" : ""
       }`}
     >
