@@ -57,18 +57,18 @@ const Tokenomics = () => {
       >
         <motion.div variants={variants} initial="hidden" animate={controls}>
           <motion.h2 variants={item} className="leading-snug">
-            <span className="text-accent">Tokenomics</span> <br />
-            $Argen token
+            <span className="text-accent">$Argen</span> /ARGN// <br /> Token
           </motion.h2>
           <motion.p variants={item} className="max-w-[450px] w-full mt-10">
-            Our tokenomics have been designed to provide both stability and
-            reward holders while sustaining the ecosystem development and
-            growth.
+            Tokenomics and Infrastructure will be always Designed via Security
+            and Simplicity. Rewarding Simultaneously Holders and Providing
+            Stability for the Infrastructure;
           </motion.p>
           <motion.p variants={item} className="max-w-[450px] w-full mt-4">
-            We believe in Simplicity, and that the User is always in Control,
-            thats why we reward only directly to holders onChain, without third
-            parties.
+            Trough these Design Methods we want the User be Always in Control;
+            Thats why we rewards users Directly OnChain; Without 3rd-Parties. We
+            believe These Tokenomic Models will bring Ecosystem Development and
+            Growth
           </motion.p>
         </motion.div>
         <div className="mx-auto lg:ml-auto lg:mr-0">

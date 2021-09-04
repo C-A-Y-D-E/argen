@@ -39,13 +39,17 @@ const Home = () => {
           transition={{ delay: 1.2, duration: 0.6 }}
           className="mt-16 max-w-[440px] text-base"
         >
-          We aim to deliver a first of its kind platform to enable easy and
-          simplistic investment methods. From analytical tools to advantageous
-          information to licence a warrant for an increase in safety and profits
-          from investments.
+          We aim to Deliver a First of its Kind Platform to Enable Easy and
+          Simplistic Investment Methods. The Determining Infrastructure behind
+          our Core-Products are determined provide our Users the most Lucrative
+          Assets & Management
         </motion.div>
         <div className="relative mt-16 hidden lg:block ">
-          <motion.div
+          <a href="#" class="neon-button">
+            {" "}
+            Click Me
+          </a>
+          {/* <motion.div
             animate={{ scale: [0.8, 1] }}
             transition={{ flip: Infinity }}
             className="h-[100px]  w-[100px] bg-accent/30 rounded-full flex items-center justify-center text-4xl"
@@ -54,7 +58,7 @@ const Home = () => {
           </motion.div>
           <span className="absolute top-1/2 -translate-y-1/2 left-20">
             Scroll Down
-          </span>
+          </span> */}
         </div>
       </div>
       <motion.div

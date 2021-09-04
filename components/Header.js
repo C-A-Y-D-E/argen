@@ -32,8 +32,15 @@ const Header = ({ setHeader }) => {
             <img src="/logas.png" className="w-[200px]  lg:w-[300px]" />
           </a>
         </Link>
-        <div>
+        <div className="flex items-center">
           <HamburgerMenu />
+          <a class="buy-button" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Buy
+          </a>
         </div>
       </div>
     </motion.header>

@@ -28,14 +28,14 @@ const responsive = {
 
 const Signal = ({ deviceType }) => {
   return (
-    <div className="mt-8 overflow-x-hidden flex flex-wrap gap-4 lg:gap-16 ">
-      <div className="flex flex-col  justify-center gap-6  flex-wrap px-8 lg:px-16 xl:px-20  ">
+    <div className="mt-8 overflow-x-hidden flex flex-wrap lg:flex-nowrap gap-4 lg:gap-16 ">
+      <div className="flex flex-col  justify-center gap-6  flex-wrap  px-8 lg:px-16 xl:px-20  ">
         <div className=" relative">
           <FadeUp>
             <h2 className=" relative  inline-block leading-snug">
-              <span className="text-accent">Predict</span> changes and{" "}
-              <br className="lg:hidden 2xl:inline-block" /> signal to sell or{" "}
-              <span className="relative">buy. </span>
+              <span className="text-accent">Predict</span> Changes and
+              <br className="lg:hidden 2xl:inline-block" /> Signal Sells &{" "}
+              <span className="relative">Buy. </span>
             </h2>
           </FadeUp>
         </div>
@@ -43,14 +43,14 @@ const Signal = ({ deviceType }) => {
         <div className=" ">
           <FadeUp amount={0.2}>
             <p className="max-w-[500px]  mt-0">
-              ArgenAI is a unique token which is set to disrupt the
-              DeCentralized finance space by defiling the norm and making
-              Cryptocurrency ridiculously exciting for users. It uses
-              peer-to-peer technology to operate with no central authority; We
-              aim to deliver a first of its kind platform to enable easy and
-              simplistic investment methods. From analytical tools to
-              advantageous information to licence a warrant for an increase in
-              safety and profits from investments.
+              ArgenAI Is Unique Platform fueled by Native Token Argen /ARGN/{" "}
+              ArgenAI Teams plan is to Distrupt the Scam Ridiculed and
+              Fake-DeCentralized InfraStructure in The CryptoCurrency Space by
+              Providing Legitimate; on to The Point CryptoGraphical Encryption
+              Solutions; We Aim to Deliver Simplistic; but Versatile Platform
+              which Enables users for Easy to Understand Investment Methods into
+              the CryptoSpace; From Analytical tools To Advantageous Information
+              to Maximize your Gains and Safety of Investments.
             </p>
           </FadeUp>
         </div>
@@ -60,17 +60,23 @@ const Signal = ({ deviceType }) => {
         <SpecialityCard
           shadow={true}
           heading="Liquidity"
-          text="100% of Liquidity will be Locked In DeCentralized Exchange to prevent high volatility of transaction. Hence, market is more stable with a few fluctuation in price."
+          text="100% Of Liquidity will Be Locked 
+          from the PreSale; Liquidity is Locked in DeCentralized
+          Exchange; Anyone has access; Anytime; Anywhere"
           br={true}
         />
         <SpecialityCard
           heading="Speed"
-          text="We believe that one of the most impotant features in DeFi is speed, thus, Argen operates through Binance & Ethereum Chain which is inadvertently the Top of the World Networks. "
+          text="We Operate on Ethereum and Binance Networks; Top of the World Networks regarding
+          Safety and Operation Speeds; We are planning our own MainChain also"
           br={true}
         />
         <SpecialityCard
           heading="Security"
-          text="If a network cannot function safely, then it will not matter how fast it works. While speed is one of the prime concerns, one security flaw can bring the whole thing down. Argen promises to be one of the most secured platform ever for its users"
+          text="Network Safety is our Main Priority; 
+          Everything will work from Locked OnChain; 
+          There is no Middle-Men; Even we can't Access many parts of the 
+          InfraStructure By Design"
         />
       </div>
     </div>

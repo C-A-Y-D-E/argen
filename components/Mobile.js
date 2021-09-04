@@ -68,11 +68,10 @@ const Mobile = () => {
             variants={children}
             className="mt-4 max-w-[440px] text-base"
           >
-            Argen is the most Advanced and Easy to use Trading Matrix Datasets
+            Argen is the most Advanced and Easy to use Trading Matrix dataset;
             with the most complete Tracking & Analytics Tools on BSC & ETH
             Networks. We have unique and novel Features with State of the Art
-            UIX-to Streamline your Success into Reality. You're not likely to
-            see this just anywhere in decentralize finance.
+            UIX-to Streamline your Success into Reality.
           </motion.div>
           <motion.div
             className="mt-8"

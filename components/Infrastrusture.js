@@ -12,11 +12,12 @@ const Infrastrusture = () => {
       <FadeUp>
         <div className="text-center">
           <h2 className="">
-            <span className="text-accent">Trusted</span> Infrastucture
+            <span className="text-accent">Trusted</span> Infrastucture Bases
           </h2>
 
           <div className="mt-8">
-            Navigate the depths of crypto with ease and pleasure
+            Navigate The Depths of CryptoSpace with Ease and Pleasure Trusted
+            Infrastucture Bases
           </div>
         </div>
       </FadeUp>

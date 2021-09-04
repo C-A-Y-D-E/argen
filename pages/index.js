@@ -13,8 +13,15 @@ import NavigateUp from "components/NavigateUp";
 
 export default function App() {
   return (
-    <div id="home" className=" flex flex-col">
-      <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
+    <div
+      id="home"
+      className=" flex items-center justify-center flex-col h-screen w-full px-4"
+    >
+      <span className="text-7xl">DANGER ALERT</span>
+      <div className="flex items-center justify-center text-5xl mt-4">
+        Dont Invest, Dev Scam me gonna do same with you!
+      </div>
+      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         {" "}
         <Home />
       </div>
@@ -28,20 +35,7 @@ export default function App() {
         <Infrastrusture />
       </div>
 
-      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
-        {" "}
-        <Video />
-      </div> */}
-
-      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
-        {" "}
-        <Feature />
-      </div> */}
-
-      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
-        {" "}
-        <Roadmap />
-      </div> */}
+     
 
       <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         <Mobile />
@@ -55,10 +49,6 @@ export default function App() {
       <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
         {" "}
         <Footer />
-      </div>
-      {/* <div className="container mx-auto px-8 lg:px-16 xl:px-20  ">
-        {" "}
-        <NavigateUp />
       </div> */}
     </div>
   );

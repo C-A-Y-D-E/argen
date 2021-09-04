@@ -8,15 +8,7 @@ import Header from "components/Header";
 import HamburgerMenu from "components/Hamberger";
 function MyApp({ Component, pageProps }) {
   const [header, setHeader] = useState(false);
-  return (
-    <AnimateSharedLayout>
-      <Header setHeader={setHeader} />
-      {/* <AnimatePresence>
-        {header && <HamburgerMenu setHeader={setHeader} />}
-      </AnimatePresence> */}
-      <Component {...pageProps} />
-    </AnimateSharedLayout>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
